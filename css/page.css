@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Pinot Grigio';
+    src: url(/front/themes/youji/font/PinotGrigio/PinotGrigio.eot);
+    src: url(/front/themes/youji/font/PinotGrigio/PinotGrigio.eot?#iefix) format('embedded-opentype'),
+         url(/front/themes/youji/font/PinotGrigio/PinotGrigio.otf) format('otf'),
+         url(/front/themes/youji/font/PinotGrigio/PinotGrigio.svg#Pinot%20Grigio) format('svg'),
+         url(/front/themes/youji/font/PinotGrigio/PinotGrigio.woff) format('woff'),
+         url(/front/themes/youji/font/PinotGrigio/PinotGrigio.ttf) format('truetype'),
+         url(/front/themes/youji/font/PinotGrigio/PinotGrigio.woff2) format('woff2');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+
+    background: #cc5a3f;
+    background: url(/imgs/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash-medium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    transition: background .5s;
+}
+
+body * {
+    outline: none !important;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #000000c4;
+    box-shadow: 5px 0px 10px #000000ad;
+}
+
+header p {
+    margin: 0 !important;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+header .menu-icons {
+    display: flex;
+    flex-direction: column;
+}
+header .menu-icons svg {
+    width: 2.7rem;
+    height: 2.7rem;
+    fill: #fff;
+    transition: fill .2s ease-in-out;
+}
+header .menu-icons a:hover svg {
+    fill: #cc5a3f;
+}
+header .menu-icons a:not(:last-child) {
+    margin-bottom: 1.5rem;
+}
+
+header .spacer {
+    flex: 2;
+}
+
+#content {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    overflow: auto;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.490);
+    font-size: 1.1em;
+}
+
+h1#youji {
+    font-size: 5em;
+}
+
+/* albums list */
+.albums_list > ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.albums_list > ul > li {
+    margin: 0;
+}
+
+.albums_list > ul > li > a {
+    display: block;
+    background: radial-gradient(circle, #691c18 0%, #1e281f 100%);
+    padding: 15px;
+    border-radius: 10px;
+    width: 12rem;
+}
+
+.albums_list > ul > li > a:hover {
+    text-decoration: none;
+}
+
+.albums_list > ul > li > a > img {
+    width: 100%;
+    transition: transform .2s ease-in-out;
+}
+
+.albums_list > ul > li > a:hover img {
+    transform: scale(.95);
+}
+
+.albums_list > ul > li > a > p {
+    margin: 0;
+    color: #fff;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 1.2rem;
+}
+/* end albums list */
+
+/* album page */
+.album_infos {
+    color: #ccc;
+    text-align: center;
+}
+.album_cover {
+    width: 15rem;
+    margin: auto;
+    display: block;
+}
+.album_links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 15px;
+}
+.album_links a {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+.album_links a svg {
+    width: 100%;
+    height: 100%;
+    fill: #fff;
+    transition: fill .2s ease-in-out;
+}
+.album_links a svg:hover {
+    fill: #cc5a3f;
+}
+/* end album */
+
+footer {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 3em !important;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer a {
+    color: #fff !important;
+    text-decoration: underline !important;
+}
+
+footer a:hover {
+    color: #cc5a3f;
+}
+
+@media all and (max-width: 2000px) {
+    #content {
+        background-size: 40%;
+    }
+}
+
+@media all and (max-width: 1500px) {
+    #content {
+        background-size: 50%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    #content {
+        background-size: 60%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #content {
+        background-size: 70%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    #content {
+        background-size: 80%;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #content {
+        background-size: 90%;
+    }
+}
+
+@media all and (max-width: 650px) {
+    header {
+        padding: 15px;
+    }
+    header .menu-icons svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+    #content {
+        background-size: 100%;
+    }
+}
+
+@media all and (max-width: 400px) {
+}
