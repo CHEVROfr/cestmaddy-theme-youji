@@ -73,12 +73,17 @@ header .spacer {
     padding-bottom: 5rem;
     overflow: auto;
     color: #fff;
-    background: rgba(0, 0, 0, 0.490);
+    background: rgba(0, 0, 0, 0.6);
     font-size: 1.1em;
 }
 
 h1#youji {
     font-size: 5em;
+}
+
+div.grey {
+    color: #d2d2d2;
+    font-size: 1rem;
 }
 
 /* albums list */
