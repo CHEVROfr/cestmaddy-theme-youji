@@ -9,6 +9,10 @@
          url(/front/themes/youji/font/PinotGrigio/PinotGrigio.woff2) format('woff2');
 }
 
+html {
+    background: radial-gradient(circle,#b52720 0,#2b402d 100%);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -17,7 +21,6 @@ body {
     max-height: 100vh;
     overflow: hidden;
 
-    background: #cc5a3f;
     background: url(/imgs/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash-medium.jpg);
     background-repeat: no-repeat;
     background-size: cover;
