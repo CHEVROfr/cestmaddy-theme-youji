@@ -10,7 +10,7 @@
 }
 
 html {
-    background: radial-gradient(circle,#b52720 0,#2b402d 100%);
+    background: radial-gradient(circle,#452f5a 0,#1d0a2f 100%);
 }
 
 body {
@@ -21,7 +21,7 @@ body {
     max-height: 100vh;
     overflow: hidden;
 
-    background: url(/imgs/tuan-nguy-n-minh-pGr7g4l8EOI-unsplash-medium.jpg);
+    background: url(/front/themes/youji/imgs/background.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
@@ -58,7 +58,7 @@ header .menu-icons svg {
     transition: fill .2s ease-in-out;
 }
 header .menu-icons a:hover svg {
-    fill: #cc5a3f;
+    fill: #785e91;
 }
 header .menu-icons a:not(:last-child) {
     margin-bottom: 1.5rem;
@@ -82,11 +82,12 @@ header .spacer {
 
 h1#youji {
     font-size: 5em;
+    margin-top: 0;
 }
 
 div.grey {
     color: #d2d2d2;
-    font-size: 1rem;
+    font-size: 1em;
 }
 
 /* albums list */
@@ -105,7 +106,7 @@ div.grey {
 
 .albums_list > ul > li > a {
     display: block;
-    background: radial-gradient(circle, #691c18 0%, #1e281f 100%);
+    background: radial-gradient(circle,#452f5a 0,#1d0a2f 100%);
     padding: 15px;
     border-radius: 10px;
     width: 12rem;
@@ -163,7 +164,7 @@ div.grey {
     transition: fill .2s ease-in-out;
 }
 .album_links a svg:hover {
-    fill: #cc5a3f;
+    fill: #785e91;
 }
 /* end album */
 
@@ -183,7 +184,7 @@ footer a {
 }
 
 footer a:hover {
-    color: #cc5a3f;
+    color: #785e91;
 }
 
 @media all and (max-width: 2000px) {

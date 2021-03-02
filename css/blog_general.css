@@ -7,7 +7,7 @@ ul.list_blog > li {
     border-radius: 5px;
 }
 ul.list_blog > li:nth-child(2n-1) {
-    background: radial-gradient(circle, #691c18 0%, #1e281f 100%);
+    background: radial-gradient(circle,#452f5a 0,#1d0a2f 100%);
 }
 ul.list_blog > li:nth-child(2n) {
     background: rgb(241, 241, 241);
