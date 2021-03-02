@@ -35,6 +35,8 @@ ul.list_blog > li > a:hover > p.list_blog_title {
 ul.list_blog > li > a > p.list_blog_title {
     font-weight: bold;
     font-size: 1.2em;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 ul.list_blog > li > a > .list_blog_description * {
