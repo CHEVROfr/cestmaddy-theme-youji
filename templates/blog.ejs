@@ -14,15 +14,17 @@
     <header class="markdown">
         <%- site.header %>
     </header>
-    <div id="content" class="markdown post_content">
-        <img class="post_enclosure" src="<%- post.enclosure %>" />
-        <h1 class="post_title"><%- post.title %></h1>
-        <p class="post_infos"><%- post.author.name %>, <strong><%- post.relative_date %></strong> <%- post.date_string %></p>
-        <%- post.html %>
+    <div id="content">
+        <div class="inside-content markdown post_content">
+            <img class="post_enclosure" src="<%- post.enclosure %>" />
+            <h1 class="post_title"><%- post.title %></h1>
+            <p class="post_infos"><%- post.author.name %>, <strong><%- post.relative_date %></strong> <%- post.date_string %></p>
+            <%- post.html %>
 
-        <footer class="markdown">
-            <%- site.footer %> 
-        </footer>
+            <footer class="markdown">
+                <%- site.footer %> 
+            </footer>
+        </div>
     </div>
 </body>
 </html>

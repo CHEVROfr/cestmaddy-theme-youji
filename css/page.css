@@ -80,6 +80,11 @@ header .spacer {
     font-size: 1.1em;
 }
 
+#content>.inside-content {
+    max-width: 60rem;
+    margin: auto;
+}
+
 h1#youji {
     font-size: 5em;
     margin-top: 0;
@@ -141,6 +146,7 @@ div.grey {
 .album_infos {
     color: #ccc;
     text-align: center;
+    margin-bottom: 50px;
 }
 .album_cover {
     width: 15rem;

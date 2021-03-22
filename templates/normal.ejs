@@ -18,12 +18,15 @@
     <header class="markdown">
         <%- site.header %>
     </header>
-    <div id="content" class="markdown">
-        <%- normal.html %> 
+    <div id="content">
+        <div class="inside-content markdown">
+            <%- normal.html %> 
         
-        <footer class="markdown">
-            <%- site.footer %> 
-        </footer>
+            <footer class="markdown">
+                <%- site.footer %> 
+            </footer>
+    
+        </div>
     </div>
 </body>
 </html>
